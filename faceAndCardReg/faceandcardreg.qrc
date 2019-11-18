@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/allImg">
+        <file>img/adv1.jpg</file>
+        <file>img/bakimg.jpg</file>
+        <file>img/bg.jpg</file>
+        <file>img/bitbug_favicon.ico</file>
+        <file>img/cc.jpg</file>
+        <file>img/dxface.png</file>
+        <file>img/face.jpg</file>
+        <file>img/face.png</file>
+        <file>img/gwjn01.jpg</file>
+        <file>img/gwjn02.jpg</file>
+        <file>img/lines.jpg</file>
+        <file>img/zydd01.jpg</file>
+        <file>img/zydd02.jpg</file>
+        <file>img/zynl01.jpg</file>
+        <file>img/zynl02.jpg</file>
+    </qresource>
+</RCC>

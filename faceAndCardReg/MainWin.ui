@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWin</class>
+ <widget class="QMainWindow" name="MainWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1268</width>
+    <height>749</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>鼎星人脸识别身份核验系统</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1268</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>10</horstretch>
+     <verstretch>10</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>10</width>
+     <height>10</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>true</bool>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>认证识别</string>
+    </property>
+    <addaction name="camStr"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>认证查询</string>
+    </property>
+    <addaction name="actionRzResu"/>
+    <addaction name="actionRzSta"/>
+    <addaction name="actionRzLog"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>数据管理</string>
+    </property>
+    <addaction name="actionSysDataIni"/>
+    <addaction name="actionDataInAndOut"/>
+    <addaction name="actionDataSet"/>
+    <addaction name="actionRzDatainit"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <action name="camStr">
+   <property name="text">
+    <string>开始识别</string>
+   </property>
+   <property name="iconText">
+    <string>开始识别</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionRzResu">
+   <property name="text">
+    <string>认证结果查询</string>
+   </property>
+  </action>
+  <action name="actionRzSta">
+   <property name="text">
+    <string>认证结果统计</string>
+   </property>
+  </action>
+  <action name="actionRzLog">
+   <property name="text">
+    <string>认证日志详情</string>
+   </property>
+  </action>
+  <action name="actionSysDataIni">
+   <property name="text">
+    <string>系统数据初始化</string>
+   </property>
+  </action>
+  <action name="actionDataInAndOut">
+   <property name="text">
+    <string>数据导入导出</string>
+   </property>
+  </action>
+  <action name="actionDataSet">
+   <property name="text">
+    <string>认证数据设置</string>
+   </property>
+  </action>
+  <action name="actionRzDatainit">
+   <property name="text">
+    <string>认证数据初始化</string>
+   </property>
+  </action>
+  <action name="actiontest">
+   <property name="text">
+    <string>你好</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::ApplicationSpecificRole</enum>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
