@@ -12,9 +12,7 @@
  认证日志详情，展示每条认证数据，展示现场图片，身份证图片，准考证图片</p>
 <img src="https://github.com/jkinggu/archFaceRegFinal/blob/master/images/dl.png"></img>
 <img src="https://github.com/jkinggu/archFaceRegFinal/blob/master/images/zy.png"></img>
-
 <img src="images/sb.png"></img>
 <img src="images/rz.png></img>
- <img src="images/dr.png></img>  
-
+<img src="images/dr.png></img>  
 
